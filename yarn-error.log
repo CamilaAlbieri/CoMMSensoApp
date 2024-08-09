@@ -1,0 +1,89 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @types/react_native_mqtt
+
+PATH: 
+  D:\Java\jdk-17.0.10.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;D:\minGw\bin;C:\Program Files (x86)\Yarn\bin\;D:\Git\cmd;D:\VirtualBox;D:\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;D:\Python\Scripts\;D:\Python\;C:\Users\jadir\AppData\Local\Microsoft\WindowsApps;C:\Users\jadir\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\minGw\bin;C:\Users\jadir\AppData\Local\Yarn\bin;D:\VirtualBox;D:\IntelliJ IDEA Community Edition 2023.3.2\bin;;D:\php;C:\Users\jadir\AppData\Roaming\Composer\vendor\bin;C:\Users\jadir\.dotnet\tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2freact_native_mqtt: Not found
+      at params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "commsensoapp",
+    "main": "expo-router/entry",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "expo start",
+      "reset-project": "node ./scripts/reset-project.js",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "test": "jest --watchAll",
+      "lint": "expo lint"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^14.0.2",
+      "@react-navigation/native": "^6.0.2",
+      "@types/mqtt": "^2.5.0",
+      "expo": "~51.0.24",
+      "expo-constants": "~16.0.2",
+      "expo-font": "~12.0.9",
+      "expo-linking": "~6.3.1",
+      "expo-router": "~3.5.20",
+      "expo-splash-screen": "~0.27.5",
+      "expo-status-bar": "~1.12.1",
+      "expo-system-ui": "~3.0.7",
+      "expo-web-browser": "~13.0.3",
+      "mqtt": "^5.9.1",
+      "react": "18.2.0",
+      "react_native_mqtt": "^1.3.1",
+      "react-dom": "18.2.0",
+      "react-native": "0.74.3",
+      "react-native-gesture-handler": "~2.16.1",
+      "react-native-reanimated": "~3.10.1",
+      "react-native-safe-area-context": "4.10.5",
+      "react-native-screens": "3.31.1",
+      "react-native-vector-icons": "^10.1.0",
+      "react-native-web": "~0.19.10"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@types/jest": "^29.5.12",
+      "@types/react": "~18.2.45",
+      "@types/react-native-vector-icons": "^6.4.18",
+      "@types/react-test-renderer": "^18.0.7",
+      "jest": "^29.2.1",
+      "jest-expo": "~51.0.3",
+      "react-test-renderer": "18.2.0",
+      "typescript": "~5.3.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
